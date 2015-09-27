@@ -4,9 +4,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wukege.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: 可鬲
+username: wukege
 user_description: 时间是一切财富中最宝贵的财富。—— 德奥弗拉斯多
-user_title: wukege
+user_title: 可鬲
 email: gs.jp@163.com
 twitter_username: wukege
 github_username:  wukege
