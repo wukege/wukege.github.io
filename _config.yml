@@ -1,11 +1,11 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://wukege.github.io/" # the base hostname & protocol for your site 
+url: "http://wukege.github.io" # the base hostname & protocol for your site 
 
 # User settings
 username: wukege
-user_description: Anon Developer at Lorem Ipsum Dolor
+user_description: 时间是一切财富中最宝贵的财富。—— 德奥弗拉斯多
 user_title: wukege
 email: gs.jp@163.com
 twitter_username: wukege
@@ -37,8 +37,7 @@ links:
     url: /tags
   - title: About Me
     url: /about
-  - title: baidu
-    url: www.baidu.com
+
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
