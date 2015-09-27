@@ -38,7 +38,7 @@ links:
   - title: About Me
     url: /about
   - title: test
-    url: /test
+    url: /mypage/test
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
