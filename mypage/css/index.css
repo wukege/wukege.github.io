@@ -19,6 +19,11 @@ button{
 	background:#333;
 	color:#eee;
 }
+button a{
+	background:#23A8F5;
+	display:inline-block;
+	color:#fff;
+}
 h2{
 	margin:0;
 }
@@ -36,9 +41,13 @@ h2{
 	left:0;
 	z-index:9999;
 }
+header{
+	background:rgba(0,0,0,0.4);
+}
+
 header nav {
 	height:60px;
-	background:#125a8c;
+	background:#0562DC;
 }
 header ul{
 	margin:0;
@@ -66,7 +75,7 @@ header ul li a{
 	color:#fff;
 }
 #banner{
-	background:#CCC;
+	background:transparent;
 	margin-top:60px;
 }
 #banner .inner{
@@ -138,6 +147,79 @@ p{
 
 }
 
+.gray-section .img-section{
+	width:45%;
+}
+.gray-section img{
+	width:100%;
+}
+.gray-section{
+	background: #292929;
+	color:#fff;
+}
+.gray-section .text-section{
+	width:55%;
+}
+.article-preview > div{
+	float:left;
+	font-size:0;  /*吧字体大小设为0可以解决div之间的缝隙问题*/
+}
+.article-preview:nth-child(odd){  /*基偶选择器*/
+	background-color:rgba(255,255,255,0.05);   
+}
+
+.clearfix:after{   /*清除浮动*/
+	content:''; 
+	display:block; 
+	clear:both;
+}
+.text-section{
+	position:relative;
+	top:68px;
+	left:50px;
+}
+.text-section h2{
+	margin-bottom:20px;
+}
+.text-section p{
+	font-size:18px;
+	letter-spacing:1px;
+}
+.text-section .sub-heading{
+	font-size:22px;
+	margin-top:0;
+}
+.text-section >*{
+	max-width:90%;
+}
+
+footer{
+	background:#0562DC;
+	color:#fff;
+	min-height:200px;
+	text-align:center;
+}
+ul.share-group{
+	display:block;
+	width:1080px;
+	margin:0 auto;
+	padding:50px; 
+}
+.share-group li{
+	display:inline-block;
+	padding:10px;
+}
+.copy{
+	padding-bottom:20px;
+}
+.main-wrapper{
+	background:#444 url(../images/banner.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+
+}
 
 
 
@@ -164,4 +246,3 @@ p{
 
 
 
-body{height:4000px;}
